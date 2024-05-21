@@ -1,0 +1,22 @@
+*{
+    text-align:center;
+    border-radius:5px;
+}
+h1{
+    font-size:50px;
+}
+.container{
+    background:#555;
+    width:calc(100% - 20px);
+    padding:10px;
+}
+.clear{
+    height:50px;
+}
+.container > *{
+    width:80%;
+    padding:2px;
+    font-size:20px;
+    margin:3px;
+    word-break: break-all;
+}
